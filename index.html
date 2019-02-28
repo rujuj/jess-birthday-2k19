@@ -1,21 +1,10 @@
 <!DOCTYPE html>
 	<html lang="en">
-	  <!--Judy's Birthday 2k18: the Memory Jar
-	  This will be a virtual "memory jar" that will host quotes, pictures, stories, art, things Judy loves, etc.
-	  that Judy can open and come back to.
-	  Backend Experts: Roo (@rujuj) and Jazzy (@JasnoorC)
-	  Front End/Media Expert: Rae (@mnefertiti)
-	  Feel free to add your digital signature above
-	
-	  TO DO LIST:
-	  -style everything (positions, fonts, colours, aesthetic goodness)
-	  -make judy cry tears of joy
-	-->
 	  <head>
 	    <meta charset="utf-8">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	      <title>HAPPY BIRTHDAY JUDY</title>
+	      <title>HAPPY BIRTHDAY JESS</title>
 	    <link href="main.css" rel="stylesheet">
 	    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
 	    <!--[if lt IE 9]
@@ -26,8 +15,6 @@
 	<script>
 	     var debug = false; // for debugging purposes
 		
-		/*site will consist of a main image (JAR) that, when clicked, randomly prompts one in a series of
-	      jar units (memories, pictures, etc) that will then be displayed on the page*/
 		document.getElementById("judypic").style.display = none;
 		
 	      //randomizethis - picks a random number in the range of jar units, calls the function of each jar unit
@@ -46,24 +33,11 @@
                 }		
 	      }	
 	
-	     //ALL JAR UNITS WILL BE DOWN HERE - each function represents what happens when jarunit function is called
 	     function alertmessage() {
 		//array of messages
 		var messages = 
-		    ["Dearest, loveliest Judy, \nSo impressively smart, \nWith a wonderful heart,\nI just can’t get over your beauty\n-Sri the Poet",
-	      	"Aha, heyyyy, Judy!!! Love you so much and I hope you have an AMAZING birthday!!!! I hope you enjoy that horrible limerick!!\nIt’s all true, even though it’s worded horribly. Thanks so much for all the years of friendship and putting up with my pessimism. \nWe’ve had lots of fun times together, from DECA to crew things and a bunch of stuff. You’re a wonderful person, and I can’t wait to see all the incredible things you’ll accomplish. \nLOVE YOU SO MUCH, DUDE!!! <3 <3\n- Sri",
-	       	"Juft! You're absolutely amazing and I miss you so much! I hope your birthday was fantastic!\nYou deserve the best! -Jazzy",
-	        "Favourite Crewling\nGreatest engineer of all\nOur dearest Judy\n - Helen the Poet", 
-		"There once was a girl named Judy,\nWho never shirked her duty, \nA student without peer, \nThe genius engineer,\nDedicated? Talented? Absolutely!\n - Helen the Poet", 
-		"Happy Birthday to the most disciplined, kind, extraordinarily talented human I know.\nMay your 20th year be one filled with adventure & love\n-Rae <3",
-		"JUDY! You are one of the most amazing humans I know (and I think I know a decent number of them)! You're incredibly talented and dedicated and passionate and intelligent and hard working and beautiful and I am missing so many things here. I hope you have an amazing year and many more to come and I am so excited to see the amazing things you will do :) \n- Lots of love from Roo",
-		"Happy Birthday Judy!! Have a fabulous day and thank you for all these years of fun memories and laughter! You're such a charismatic, sweet, wise and compassionate person and I'm so lucky to have you in my life! \nSpending time with you always puts a smile on my face and I miss seeing you! \nI'm so happy and proud to call you my dear friend and I love seeing you grow as both an engineer and an artist <3\nOther than bumping into each other at UofT, we'd better hang out properly sometime soon! Love you to the moon and back <3\n - Nishi",
-		"Happy birthday Judy! I know it's been awhile since we talked but I want you to know how special your are and how much you matter and have made an impact in my life. Even now when Im feeling like I'm not sure what to do, I remember your drive, compassion and think about what I should do next. I know how hard you work, how creative you are and what all you do to improve yourself and those around you. Really miss you girl, I hope uni is going well and don't worry, we know you will be amazing bc I don't think it's physically possible for you not to be. Have the happiest birthday oldie 😉\n - Sanjeevani",
-		"MEMORY FROM ROO: playing ping pong for CAS and BSing our journal entries and trying out different ways to hold the paddles - I still miss my smashes most of the time",
-		"Happy birthday Judy! Can you believe we're 20?! We're so old! We're gonna have to start a bingo club soon. Anyways, I hope your day was fantastic and you spent it with people you love. Best wishes for the coming year, I know you will accomplish great things!\n Love, Jessica", 
-		"Happy 20th birthday Judy! You are officially two decades old but not to fear, with age comes wisdom and experience (or so they say :-P). You are extremely kind and smart and I wish you the best for this year and the many more to come. Have a splendid day and hope to see you soon after exams!!\n - Amisha"
-		];
-	       var random2 = Math.floor(Math.random() * messages.length);//random number for picking from array
+		    [""];
+	       var random2 = Math.floor(Math.random() * messages.length); //random number for picking from array
 	       alert(messages[random2]);
 		document.getElementById("judypic").style.display = none;		
 	      }
@@ -77,9 +51,7 @@
 	        document.body.style.background=bgColor;
 	      }
 	
-	      function confetti(){
-	      
-	      }
+	      function confetti(){}
 		
 	      function pictureappear(){
 		document.getElementById("judypic").style.display = "";
@@ -93,22 +65,15 @@
 		} // we don't want the number 0 because currently we have no /0.jpg
 	      	var imgsrc = "Assets/" + random3 + ".jpg";
 		      
-		document.getElementById("judypic").src = imgsrc; 
-		      // setting the dimensions of the second image
-		      /*if (document.getElementByID("judypic").height() > "500 px") {
-			      document.getElementByID("judypic").height = "500 px";
-		      } else {
-			      document.getElementByID("judypic").width = "500 px";
-		      }*/
+		document.getElementById("judypic").src = imgsrc;
 	      }
 	    </script>	
 	  </head>
 	  <body>
-	    <!--<h1>HAPPY BIRTHDAY JUDY</h1>-->
+	    <!--<h1>HAPPY BIRTHDAY JESS</h1>-->
 	<div class="wholething">
 		<div class="images">
 		<img onclick="randomizethis()" src="Assets/judyjar.png" width="500 px" alt="RANDOM">
-		<!-- <div class="container" width="500 px" height="500 px"> -->
 			
 		<div class="container" width="600 px">
 			<img id="judypic" src="Assets/1.jpg" style="display: none" max-width=100% max-height=100%>
@@ -116,7 +81,6 @@
 			<!-- max-height=100% max-width=100% --> 
 		<!-- </div> -->
 		
-		<!-- <embed src="Sounds/lastdance-bigbang.mp3"> -->
 		<!-- JUST TRYING TO ADD SOME MUSIC HERE --> 
 		</div>
 		<br>
