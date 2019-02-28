@@ -1,0 +1,17 @@
+//this is the place for the styles
+body {
+    text-align: center;
+    background-color: black;
+}
+
+.wholething {
+    text-align: center;
+    width:1000px;
+        margin-left:auto;
+        margin-right:auto;
+    
+}
+
+#judypic {
+    height: 500px;
+}
