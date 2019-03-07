@@ -11,82 +11,39 @@
 	      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 	      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	    [endif]-->
-	
-	<script>
-	     var debug = false; // for debugging purposes
-		
-		document.getElementById("judypic").style.display = none;
-		
-	      //randomizethis - picks a random number in the range of jar units, calls the function of each jar unit
-	      function randomizethis(){
-	        changebackground();
-						      
-		var randomnumber = Math.floor(Math.random() * 2); // random number between 0 and 3
-		      
-	       	if (randomnumber == 0) {
-			pictureappear();
-			//document.getElementById("judypic").style.display = "";
-		}
-	       	else {
-			alertmessage();
-			//document.getElementById("judypic").style.display = none;}
-                }		
-	      }	
-	
-	     function alertmessage() {
-		//array of messages
-		var messages = 
-		    [""];
-	       var random2 = Math.floor(Math.random() * messages.length); //random number for picking from array
-	       alert(messages[random2]);
-		document.getElementById("judypic").style.display = none;		
-	      }
-	
-	      function changebackground() {
-	        var x=Math.floor(Math.random()*(200-100+1)+100);//random R value
-	        var y=Math.floor(Math.random()*(200-100+1)+100);//random G value
-	        var z=Math.floor(Math.random()*(200-100+1)+100);//random B value
-	        var bgColor="rgb(" +x+ "," +y+ "," +z+ ")";
-	        console.log(bgColor);
-	        document.body.style.background=bgColor;
-	      }
-	
-	      function confetti(){}
-		
-	      function pictureappear(){
-		document.getElementById("judypic").style.display = "";
-		var random3 = 0;
-		// number of pictures:
-		var picnum = 34;
-		      
-		while (random3 == 0) {
-		      random3 = Math.floor(Math.random() * (picnum + 1)); //chooses a random picture 
-			//(in main html body, a new div will change on click of jar by calling randomizethis)
-		} // we don't want the number 0 because currently we have no /0.jpg
-	      	var imgsrc = "Assets/" + random3 + ".jpg";
-		      
-		document.getElementById("judypic").src = imgsrc;
-	      }
-	    </script>	
 	  </head>
 	  <body>
-	    <!--<h1>HAPPY BIRTHDAY JESS</h1>-->
-	<div class="wholething">
-		<div class="images">			
-			<div class="container" width="600 px">
-				<img id="judypic" src="Assets/1.jpg" style="display: none" max-width=100% max-height=100%>
+			<div class="page">
+				<div class="icons">
+					<!-- grid of icons -->
+					<!-- https://www.w3schools.com/howto/howto_js_image_grid.asp -->
+					<div class="row">
+						<div class="column">
+							<img src="Assets/asteroid.jpg">
+			    		<img src="Assets/blackhole.JPG">
+			    		<img src="Assets/ganymede.jpg">
+						</div>
+						<div class="column">
+							<img src="Assets/gliese-581g.JPG">
+			    		<img src="Assets/goldstar.png">
+			    		<img src="Assets/hermes.JPG">
+						</div>
+						<div class="column">
+							<img src="Assets/jupiter.JPG">
+			    		<img src="Assets/love.JPG">
+			    		<img src="Assets/saturn.JPG">
+						</div>
+					</div>
+				</div>
+				<br>
+				</div class="music">
+						<audio controls autoplay>
+			  		  		<source src="Sounds/allstar.mp3" type="audio/mpeg">
+					  		Your browser does not support the audio element.
+						</audio>
+				</div>
 			</div>
-		
-		<!-- JUST TRYING TO ADD SOME MUSIC HERE --> 
-		</div>
-		<br>
-			<audio controls autoplay>
-  		  		<source src="Sounds/allstar.mp3" type="audio/mpeg">
-		  		Your browser does not support the audio element.
-			</audio>
-	</div>
-	    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
-	    <!-- <script src="js/bootstrap.min.js"></script> style="background-color:#E6E6FA"-->
-
+			    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+			    <!-- <script src="js/bootstrap.min.js"></script> style="background-color:#E6E6FA"-->
 	  </body>
 	</html>
