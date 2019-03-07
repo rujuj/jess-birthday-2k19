@@ -4,13 +4,9 @@ body {
     /*background-image: url("milkyway.jpg");*/
 }
 
-.wholething {
+.page {
     text-align: center;
     width:1000px;
         margin-left:auto;
         margin-right:auto;
-}
-
-#judypic {
-    height: 500px;
 }
