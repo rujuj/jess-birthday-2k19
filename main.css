@@ -1,7 +1,7 @@
-//this is the place for the styles
+/*this is the place for the styles*/
 body {
     text-align: center;
-    background-image: url("milkyway.jpg");
+    /*background-image: url("milkyway.jpg");*/
 }
 
 .wholething {
@@ -9,7 +9,6 @@ body {
     width:1000px;
         margin-left:auto;
         margin-right:auto;
-    
 }
 
 #judypic {
