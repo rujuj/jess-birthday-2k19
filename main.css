@@ -1,7 +1,5 @@
-/*this is the place for the styles*/
 body {
     text-align: center;
-    /*background-image: url("milkyway.jpg");*/
 }
 
 .page {
@@ -13,4 +11,12 @@ body {
 
 p {
   color: white;
+}
+
+.mybutton a {
+    border-radius: 3px;
+    padding: 0.25em;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #000000;
 }
