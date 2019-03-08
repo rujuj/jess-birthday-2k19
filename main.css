@@ -24,12 +24,8 @@ p {
 }
 
 .picture {
-    position:relative;
-    top: 10px;
+     display: flex;
+    padding: 20px 5px 5px 5px;
   
 }
 
-p.words{
-     font-family: verdana;
-   font-size: 150%;
-}
