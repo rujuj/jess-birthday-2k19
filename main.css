@@ -25,7 +25,7 @@ p {
 }
 
 .picture {
-     display: flex;
+     display: relative;
     padding: 40px 5px 5px 5px;
   
 }
