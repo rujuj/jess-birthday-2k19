@@ -23,6 +23,7 @@ p {
 }
 
 .picture {
-    top: 10px;
     position:relative;
+    top: 10px;
+  
 }
