@@ -21,3 +21,8 @@ p {
     text-decoration: none;
     background-color: #000000;
 }
+
+.picture {
+    top: 10px;
+    position:relative;
+}
