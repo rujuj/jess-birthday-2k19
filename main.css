@@ -25,7 +25,8 @@ p {
 }
 
 .picture {
-     display: block;
+     display: relative;
+     align: middle;
     padding: 40px 5px 5px 5px;
   
 }
