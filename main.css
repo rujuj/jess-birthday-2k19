@@ -12,7 +12,9 @@ body {
 
 p {
   color: white;
-}
+  font-family: verdana;
+   font-size: 150%;
+ }
 
 .mybutton a {
     border-radius: 3px;
@@ -27,3 +29,6 @@ p {
     top: 10px;
   
 }
+
+
+    
