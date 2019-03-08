@@ -2,6 +2,7 @@ body {
     text-align: center;
     text-shadow: 2px 2px #000000;
     font-size: 40px;
+    font-family: verdana;
 }
 
 .page {
@@ -27,6 +28,7 @@ p {
 .picture {
      display: flex;
      text-align: center;
-     margin-left: 50px;
+     margin-left: 660px;
+     margin-top:20px;
   
 }
