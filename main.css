@@ -12,8 +12,7 @@ body {
 
 p {
   color: white;
-  font-family: verdana;
-   font-size: 150%;
+ 
  }
 
 .mybutton a {
@@ -30,5 +29,7 @@ p {
   
 }
 
-
-    
+.words{
+     font-family: verdana;
+   font-size: 150%;
+}
