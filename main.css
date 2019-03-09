@@ -14,7 +14,6 @@ body {
 
 p {
   color: white;
- 
  }
 
 .mybutton a {
@@ -26,8 +25,8 @@ p {
 }
 
 .picture {
-     display: block;
-     //text-align: center;
-     margin-left: auto; 
-     margin-right: auto; 
+     display: flex;
+     text-align: center;
+     margin-left: 660px;
+     margin-top:20px;
 }
