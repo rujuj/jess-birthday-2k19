@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    text-shadow: 2px 2px #000000;
+    font-size: 40px;
+    font-family: verdana;
+}
+
+.page {
+    text-align: center;
+    width:1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+p {
+  color: white;
+ }
+
+.mybutton a {
+    border-radius: 3px;
+    padding: 0.25em;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #000000;
+}
+
+.picture {
+     display: flex;
+     text-align: center;
+}
