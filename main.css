@@ -26,9 +26,8 @@ p {
 }
 
 .picture {
-     display: flex;
+     display: block;
      text-align: center;
-     margin-left: 360px;
-     margin-top:20px;
-  
+     margin-left: auto; 
+    margin-right: auto; 
 }
